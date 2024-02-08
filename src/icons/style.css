@@ -1,0 +1,205 @@
+/* General */
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter/static/Inter-Light.ttf') format('truetype');
+    font-weight: 300; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #707392;
+    margin: 0;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.btn {
+    display: flex;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #707392;
+    color: white;
+}
+
+.btn-secondary {
+    border: solid 2px #dbdbe9;
+    color: #707392;
+}
+
+.btn-primary-white {
+    background-color: white;;
+    color: #707392;
+}
+
+.btn-secondary-blue {
+    border: solid 1px white;
+    color: white;
+    background-color: #707392;
+}
+
+/* Icons  */
+.btn img {
+    width: 16px;
+    height: 16px;
+}
+
+h4 img {
+    width: 16px;
+    height: 16px;
+}
+
+.social-proof-section img {
+    width: 52px;
+    height: 52px;
+}
+
+#netflix {
+    width: 72px;
+    height: 72px;
+}
+
+#buffer {
+    width: 48px;
+    height: 48px;
+}
+
+#stripe {
+    width: 68px;
+    height: 68px;
+}
+
+#framer {
+    width: 48px;
+    height: 48px;
+}
+
+#hubspot {
+    width: 81px;
+    height: 81px;
+}
+
+.solutions-section img {
+    width: 16px;
+    height: 16px;
+}
+
+.logo {
+    width: 84px;
+    height: 84px;
+}
+
+.header a  {
+    display: flex;
+    align-items: center;
+}
+
+.header a img {
+    padding-left: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.testimonials img {
+    width: 82px;
+    height: 40px;
+}
+
+/* Headings   */
+h1, h2 {
+    color: #707392;
+}
+
+.h3-secondary {
+    color: white;
+}
+
+/* Paragraphs */
+.p-secondary {
+    color: #b8bad0;
+}
+
+.p-light {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.p-small {
+    font-size: 12px;
+}
+
+
+/* Cards */
+.solution-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 30px 30px 30px;
+    background-color: #707392;
+    width: 390px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.testimonial-card {
+    border: solid 2px #dbdbe9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.a-bold {
+    font-weight: 700;
+}
+
+.solution-link {
+    display: flex;
+    align-items: center;
+}
+
+/* Horizontal line */
+hr {
+    border: 1px solid #e8e9ed;
+    width: 70%;
+}
+
+/* Solutions section */
+.solutions-section {
+    color: white;
+}
+
+/* Get in touch section */
+.get-in-touch-section {
+    height: 300px;
+    background-color: #707392;
+}
